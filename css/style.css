@@ -12,6 +12,7 @@ body{
 .container{
     max-width: 1280px;
     margin: auto;
+    padding: 0 20px;
 }
 
 /* Contenitore padre delle colonne */
@@ -32,6 +33,7 @@ body{
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     min-height: 500px;
+    border-radius: 10px;
 }
 
 /* Hero contenente overlay*/
@@ -41,6 +43,7 @@ body{
     background-image: url("../img/banner.jpg");
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
 }
 
 
@@ -138,3 +141,18 @@ header a{
 #list-first-element{
     margin-left: 0;
 }
+
+/* container-small */
+.container-small{
+    margin-top: 40px;
+}
+
+.container-small span{
+    color: grey;
+}
+
+.container-small h1{
+    font-size: 30px;
+}
+
+
