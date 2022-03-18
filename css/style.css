@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+/* Contenitori */
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container-father{
+    min-height: 500px;
+    margin-bottom: 10px;
+}
+
+
+.header{
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+
+.container-big{
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+
+.container-small{
+    min-height: 80px;
+}
+
+.left-col, .right-col{
+    float: left;
+    width: 20%;
+    min-height: 450px;
+    margin-top: 25px;
+    
+}
+
+.middle-col{
+    float: left;
+    width: calc(60% - 40px);
+    height: 450px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer{
+    min-height: 60px;
+}
+
+/* Clearfix */
+.container-father::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Backround color classes */
+
+.sand{
+    background-color: #e1d67a;
+}
+
+.lightblue{
+    background-color: #abcfe7;
+}
+
+.blue{
+    background-color: #0185ff;
+}
+
+.purple{
+    background-color: #8801fe;
+}
+
+.pink{
+    background-color: #e579e6;
+}
+
