@@ -84,8 +84,14 @@ body{
 
 
 /* Footer */
-.footer{
+footer{
     min-height: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer span{
+    color: red;
 }
 
 /* Clearfix */
@@ -93,28 +99,6 @@ body{
     content: "";
     display: table;
     clear: both;
-}
-
-/* Backround color classes */
-
-.sand{
-    background-color: #e1d67a;
-}
-
-.lightblue{
-    background-color: #abcfe7;
-}
-
-.blue{
-    background-color: #0185ff;
-}
-
-.purple{
-    background-color: #8801fe;
-}
-
-.pink{
-    background-color: #e579e6;
 }
 
 /* Logo  */
@@ -147,14 +131,17 @@ header a{
     margin-top: 40px;
 }
 
-.container-small span{
-    color: grey;
-}
-
+/* stile titolo container-small */
 .container-small h1{
     font-size: 30px;
 }
 
+/* Stile testo container-small */
+.container-small span{
+    color: grey;
+}
+
+/* Stile immagini colonna */
 .column-img-container{
     background-size: cover;
     width: 100%;
@@ -163,6 +150,7 @@ header a{
     border-radius: 10px;
 }
 
+/* Immagini di sfondo colonna */
 .container-father .left{
     background-image: url("../img/img-1.jpg");
 }
@@ -174,7 +162,9 @@ header a{
 .container-father .right{
     background-image: url("../img/img-3.jpg");
 }
+/* /Immagini di sfondo colonna */
 
+/* overlay immagine colonna */
 .overlay{
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -182,10 +172,12 @@ header a{
     border-radius: 10px;
 }
 
+/* Stile titolo colonna */
 .container-father h3{
     margin-top: 15px;
 }
 
+/* stile paragrafo colonna */
 .container-father p{
     margin-top: 10px;
     color: grey;
