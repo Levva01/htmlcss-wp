@@ -14,26 +14,52 @@ body{
     margin: auto;
 }
 
+/* Contenitore padre delle colonne */
 .container-father{
     min-height: 500px;
     margin-bottom: 10px;
 }
 
-
+/* Header */
 .header{
     min-height: 100px;
     margin-bottom: 20px;
 }
 
+
+/* Contenitore banner */
 .container-big{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
     min-height: 500px;
-    margin-bottom: 20px;
 }
 
+/* Hero contenente overlay*/
+.hero{
+    min-height: 500px;
+    margin-bottom: 20px;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Contenitore testo all'interno di container-big */
+.text-container-big{
+    color: white;
+    padding-left: 50px;
+    padding-top: 300px;
+    max-width: 500px;
+}
+
+
+/* Contenitore piccolo main */
 .container-small{
     min-height: 80px;
 }
 
+
+/* Colonna sinistra e colonna destra */
 .left-col, .right-col{
     float: left;
     width: 20%;
@@ -42,6 +68,8 @@ body{
     
 }
 
+
+/* Colonna centrale */
 .middle-col{
     float: left;
     width: calc(60% - 40px);
@@ -51,6 +79,8 @@ body{
     margin-right: 20px;
 }
 
+
+/* Footer */
 .footer{
     min-height: 60px;
 }
