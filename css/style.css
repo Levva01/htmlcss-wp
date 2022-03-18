@@ -4,6 +4,10 @@
     padding: 0;    
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Contenitori */
 .container{
     max-width: 1280px;
@@ -80,3 +84,27 @@
     background-color: #e579e6;
 }
 
+/* Logo  */
+header img{
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 30px;
+}
+
+/* Menu di navigazione */
+header li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Link della lista */
+header a{
+    text-decoration: none;
+    color: grey;
+}
+
+/* Primo elemento della lista */
+#list-first-element{
+    margin-left: 0;
+}
