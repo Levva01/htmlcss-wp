@@ -155,4 +155,29 @@ header a{
     font-size: 30px;
 }
 
+.column-img-container{
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    border-radius: 10px;
+}
 
+.container-father .left{
+    background-image: url("../img/img-1.jpg");
+}
+
+.container-father .middle{
+    background-image: url("../img/banner-2.jpg");
+}
+
+.container-father .right{
+    background-image: url("../img/img-3.jpg");
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
